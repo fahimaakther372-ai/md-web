@@ -1252,3 +1252,57 @@ button, input, textarea, select {
     bottom: 14px;
   }
 }
+
+/* PREMIUM ICON DESIGN */
+
+.fact-icon,
+.dept-icon,
+.contact-card > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #17634B;
+    background: #EAF3ED;
+    border: 1px solid rgba(23, 99, 75, 0.12);
+    transition: all 0.35s ease;
+}
+
+.fact-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 18px;
+    font-size: 23px;
+}
+
+.dept-icon {
+    width: 68px;
+    height: 68px;
+    border-radius: 22px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-card > span {
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* Hover Animation */
+
+.dept-card:hover .dept-icon,
+.contact-card:hover > span {
+    color: #fff;
+    background: #17634B;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(23, 99, 75, 0.2);
+}
+
+.fact-icon:hover {
+    transform: scale(1.1);
+    background: #17634B;
+    color: #fff;
+}
+
